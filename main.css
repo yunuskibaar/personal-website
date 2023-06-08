@@ -1,0 +1,36 @@
+.main{
+    margin:auto;
+    width: 450px;
+    padding: 40px;
+    text-align: center;  
+    margin-top: 10%;
+}
+.main img{
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.main img:hover{
+    transform: scale(0.9);
+}
+.main h1{
+    font-family: Courier New;
+    color:#fff;
+}
+.main h3{
+    font-family: Courier New;
+    color:#fff;
+}
+.main li{
+    display: inline-block;
+    padding:4px;
+}
+.main li a{
+    font-size: 50px;
+    color:#fff;
+}
+.main li a:hover{
+    color: lightgray;
+}
